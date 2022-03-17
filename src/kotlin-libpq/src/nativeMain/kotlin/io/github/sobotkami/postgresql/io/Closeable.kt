@@ -1,4 +1,4 @@
-package org.postgresql.io
+package io.github.sobotkami.postgresql.io
 
 /**
  * Closeable resource.

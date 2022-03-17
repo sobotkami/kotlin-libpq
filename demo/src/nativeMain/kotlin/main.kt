@@ -1,10 +1,10 @@
 // docker run -d -p 5432:5432 ghusta/postgres-world-db:latest
 
+import io.github.sobotkami.postgresql.*
+import io.github.sobotkami.postgresql.io.Closeable
+import io.github.sobotkami.postgresql.io.use
 import kotlinx.cinterop.CPointer
 import kotlinx.cinterop.toKString
-import org.postgresql.*
-import org.postgresql.io.Closeable
-import org.postgresql.io.use
 
 /*
 @kotlinx.serialization.Serializable

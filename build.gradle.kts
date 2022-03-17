@@ -3,7 +3,7 @@ plugins {
 }
 
 allprojects {
-	group = "org.postgresql"
+	group = "io.github.sobotkami.postgresql"
 
 	repositories {
 		mavenCentral()
