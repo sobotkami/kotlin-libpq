@@ -1,0 +1,5 @@
+headers = libpq-fe.h
+package = org.postgresql
+compilerOpts = -I/usr/include
+#linkerOpts.linux = -L/usr/lib64 -L/usr/lib/x86_64-linux-gnu -lpq -lpgcommon -lpgport -lssl -lcrypto -lgssapi_krb5 -lz -lm --allow-shlib-undefined
+linkerOpts.linux = -L/usr/lib64 -L/usr/lib/x86_64-linux-gnu -lpq -lssl -lcrypto -lz -lm --allow-shlib-undefined
